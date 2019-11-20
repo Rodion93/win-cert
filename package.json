@@ -43,6 +43,7 @@
     "edge-js": "^13.0.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
     "babel-plugin-rewire": "^1.2.0",
     "coveralls": "^3.0.7",
