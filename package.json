@@ -1,0 +1,51 @@
+{
+  "name": "win-cert",
+  "version": "0.1.0",
+  "description": "Library for obtaining certificates from the Windows certificate store",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "win",
+    "certificate",
+    "getCertificate",
+    "win store",
+    "X509",
+    "pem"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "author": {
+    "name": "Rodion Horbulenko"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rodion93/win-cert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rodion93/win-cert/issues"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">= 10.17.0"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "edge-js": "^13.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "coveralls": "^3.0.7",
+    "jest": "^24.9.0"
+  }
+}
