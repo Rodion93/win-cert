@@ -5,9 +5,30 @@ win-cert
 
 win-cert - Library for obtaining certificates from the Windows certificate store.
 
-ATTENTION - If you want to get one certificate, your certificate must be marked as exported 
+ATTENTION
+===========
+
+This library uses edge-js. 
+
+If you want to get one certificate, your certificate must be marked as exported 
 and must be imported properly (the key must be stored in the right place), otherwise the method 
 returns a certificate with an empty private key.
+
+### What you need
+
+Edge.js runs on Windows, Linux, and OSX and requires Node.js 8.x, 7.x, 6.x, as well as .NET Framework 4.5 (Windows), Mono 4.2.4 (OSX, Linux), or .NET Core 1.0.0 Preview 2 (Windows, OSX, Linux). 
+
+**NOTE** there is a known issue with Mono after 4.2.4 that will be addressed in Mono 4.6.
+
+#### Windows
+
+* Node.js 8.x, 7.x, or 6.x 
+* [.NET 4.5](http://www.microsoft.com/en-us/download/details.aspx?id=30653) and/or [.NET Core](https://www.microsoft.com/net/core)
+* to use Python, you also need [IronPython 2.7.3 or later](http://ironpython.codeplex.com/releases/view/81726)  
+* to use F#, read [Dave Thomas blog post](http://7sharpnine.com/blog/2013-05-05-i-node-something/)
+
+If you have both desktop CLR and .NET Core installed, read [using .NET Core](#using-net-core) for how to configure Edge to use one or the other.
+
 
 Init
 ===========
