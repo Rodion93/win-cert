@@ -8,7 +8,7 @@ node_js:
 
 branches:
   only:
-  - develop
+  - master
 
 install:
  - brew update >/dev/null
