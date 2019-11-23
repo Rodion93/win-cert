@@ -2,7 +2,7 @@ const edge = require('edge-js');
 const path = require('path');
 const certsConsts = require('./constants/certificateConsts');
 
-const certificates = edge.func(path.join(__dirname, 'certificates.cs'));
+const certificates = edge.func(path.join(__dirname, 'certificates.csx'));
 
 exports.getAllCertificates = getAllCertificates;
 exports.getCertificate = getCertificate;
