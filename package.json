@@ -1,6 +1,6 @@
 {
   "name": "win-cert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library for obtaining certificates from the Windows certificate store",
   "main": "index.js",
   "license": "MIT",
