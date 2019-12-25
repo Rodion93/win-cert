@@ -16,7 +16,7 @@ const BASE_STORE_LOCATION = 'CurrentUser';
  * @param {Object} [options] - Options
  * @param {string} [options.storeName] - Store Name (e.g. - Root)
  * @param {string} [options.storeLocation] - Store Location (CurrentUser or LocalMachine)
- * @returns {Promise<Array<string>>} Returns an array of certificates in PEM format
+ * @returns {Promise<Array<object>>} Returns an array of certificates in PEM format
  */
 async function getAllCertificates(options) {
   if (!options) {
